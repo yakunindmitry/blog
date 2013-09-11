@@ -7,6 +7,7 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 # Use SCSS for stylesheets
@@ -37,6 +38,8 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'rb-inotify'
+  gem 'libnotify'
 end
 
 group :production do
