@@ -188,7 +188,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   libnotify
-  pg (= 0.12.2)
+  pg
   protected_attributes
   rails (= 4.0.0)
   rb-inotify
